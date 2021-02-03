@@ -1,24 +1,31 @@
-hr{
+hr {
     height: 5px;
     border: 2px solid Black;
     background: black;
 }
 
+.table {
+
+    border: 3px solid black;
+}
+
 /*.container{*/
 /*    width: 1180px;*/
 /*}*/
-h1{
+h1 {
     text-align: center;
 }
+
 /*h2{
     text-align: center;
 }*/
 /*h3{*/
 /*    text-align: center;*/
 /*}*/
-p{
+p {
     text-align: center;
 }
+
 /*.click{*/
 /*    display: flex;*/
 /*    justify-content: space-between;*/
