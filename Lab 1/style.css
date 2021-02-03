@@ -1,4 +1,30 @@
-.container{
-    width: 1180px;
-    justify-content: center;
+hr{
+    height: 5px;
+    border: 2px solid Black;
+    background: black;
 }
+
+/*.container{*/
+/*    width: 1180px;*/
+/*}*/
+h1{
+    text-align: center;
+}
+/*h2{
+    text-align: center;
+}*/
+/*h3{*/
+/*    text-align: center;*/
+/*}*/
+p{
+    text-align: center;
+}
+/*.click{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.back{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
