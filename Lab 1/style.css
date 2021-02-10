@@ -5,13 +5,19 @@ hr {
 }
 
 .table {
-
     border: 3px solid black;
+    justify-content: center;
 }
-
-/*.container{*/
-/*    width: 1180px;*/
-/*}*/
+#caption{
+    margin-left: 45%;
+}
+.container{
+    width: 1200px;
+}
+.friend{
+    width: 1200px;
+    margin: auto;
+}
 h1 {
     text-align: center;
 }
