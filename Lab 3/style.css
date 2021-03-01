@@ -1,7 +1,4 @@
-{
-    box-sizing: border-box
-;
-}
+
 h1 {
     text-align: center;
 }
@@ -60,7 +57,7 @@ p {
     }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 991px) {
     .row{
         margin-top:10px;
     }
@@ -81,7 +78,7 @@ p {
     }
 
     .col-md-12 {
-        width: 99.50%;
+        width: 99.57%;
     }
 }
 
