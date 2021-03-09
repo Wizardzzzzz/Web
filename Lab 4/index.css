@@ -1,0 +1,56 @@
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a:link#biography {
+    color: red;
+}
+
+a:visited#biography {
+    color: #008000;
+}
+
+a:link#novadays {
+    color: blue;
+}
+
+a:visited#novadays {
+    color: #878739;
+}
+
+a:link#friends {
+    color: #00ffff;
+}
+
+a:visited#friends {
+    color: #db4c08;
+}
+
+a:link#gallery {
+    color: #77ff00;
+}
+
+a:visited#gallery {
+    color: cyan;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .click {
+        display: grid;
+        grid-template-columns: 110px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .click {
+        display: grid;
+    }
+}
+
+
