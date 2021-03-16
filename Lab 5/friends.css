@@ -1,0 +1,74 @@
+#friends_back {
+    color: blueviolet;
+    background: #F0F8FF;
+    font-style: italic;
+}
+
+h2#My_friends {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    background: green;
+    color: #F0F8FF;
+    font-weight: bold;
+    padding: 5px;
+}
+
+tr:nth-of-type(2n+1) {
+    background-color: #808080;
+    color: cyan;
+}
+
+tr:nth-of-type(2n) {
+    background: #F0F8FF;
+    color: magenta;
+}
+
+td:last-child, th:last-child {
+    text-align: end;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid red;
+}
+
+caption {
+    font-size: 20px;
+}
+
+.table {
+    border: 3px solid black;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+
+    th {
+        font-size: 120%;
+    }
+
+    td {
+        font-size: 110%;
+    }
+}
+@media (max-width: 768px) {
+
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+
+    }
+
+    th {
+        font-size: 110%;
+    }
+
+}
