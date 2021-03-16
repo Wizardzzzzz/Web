@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
+    font-family: 'Recursive', sans-serif, 'Redressed', cursive;
 }
+
 #biography_back {
     color: blueviolet;
     background: #F0F8FF;
@@ -98,17 +100,19 @@ h2 {
     padding: 0 10px 10px 10px;
 
 }
+
 .row {
-    padding:5px;
+    padding: 5px;
     justify-content: space-between;
-    margin-left  : 35px;
-    margin-right : 35px;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-bottom: 50px;
 }
 
 .col-xl-2 {
 
 }
+
 #up {
     text-transform: uppercase;
 }

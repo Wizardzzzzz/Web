@@ -1,3 +1,7 @@
+* {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
 #gallery_back {
     color: blueviolet;
     background: #F0F8FF;
@@ -5,9 +9,10 @@
 }
 
 h1 {
-    font-size : 20px;
+    font-size: 20px;
     text-align: center;
 }
+
 h3 {
     text-align: center;
 }
