@@ -6,7 +6,9 @@
     background: #F0F8FF;
     font-style: italic;
 }
-
+h1{
+    text-align: center;
+}
 h2#My_friends {
     text-align: center;
 }
@@ -47,6 +49,7 @@ caption {
     border: 3px solid black;
 }
 
+/*
 @media (min-width: 769px) and (max-width: 992px) {
 
     .col-md-12 {
@@ -74,4 +77,4 @@ caption {
         font-size: 110%;
     }
 
-}
+}*/
