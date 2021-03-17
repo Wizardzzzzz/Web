@@ -17,38 +17,39 @@ h1#title {
 #content {
     text-align: center;
 }
-
-li {
+.content{
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+/*li {
     margin: 10px;
     min-width: 500px;
     list-style-type: none;
-}
-
-li a {
-    background-color: blue;
-    font-family: 'Times New Roman', Times, serif;
-    color: cyan;
-    padding: 4px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: magenta;
-    font-family: 'Arial', Courier, monospace;
-    color: rgb(123, 255, 0);
-}
-
-li a:active {
-    background: #FFFF00;
-    color: #0000FF;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-/*a:visited {
-    background: #FFFF00;
-    color: #0000FF;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }*/
+
+    .content a:link {
+        display: block;
+        background-color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        color: cyan;
+        padding: 4px;
+        width: 200px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .content a:hover {
+        background-color: magenta;
+        font-family: 'Arial', Courier, monospace;
+        color: rgb(123, 255, 0);
+    }
+
+    .content a:visited {
+        background: #FFFF00;
+        color: #0000FF;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
 article {
     font-size: 1.2em;
@@ -109,9 +110,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-.col-xl-2 {
-
-}
 
 #up {
     text-transform: uppercase;

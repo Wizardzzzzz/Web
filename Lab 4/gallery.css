@@ -13,7 +13,7 @@ h3 {
     text-align: center;
     font-size: 1.05em;
     height: 63px;
-
+    margin-right: 50px;
 }
 
 .second_img {
@@ -21,29 +21,30 @@ h3 {
     text-align: center;
     font-size: 1.95em;
     height: 55px;
-
 }
 
 .third_img {
     text-align: center;
     font-size: 2.54em;
-    height: 50px;
+    height: 51px;
 }
 
 img {
-    display: inherit;
-    margin: 0 auto;
-    width: 100%;
+    max-width: 640px;
     max-height: 420px;
-    align-self: center;
 }
 
-
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 /* Large devices */
 @media (min-width: 993px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
+
     }
 
     .col-lg-1 {
@@ -59,7 +60,7 @@ img {
     }
 
     .col-lg-4 {
-        width: 33.33%;
+        width: 29.75%;
 
     }
 
