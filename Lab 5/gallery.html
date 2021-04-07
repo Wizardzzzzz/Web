@@ -1,35 +1,44 @@
 <!doctype html>
 <html lang="en">
 <head>  <!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Pangolin&family=Raleway:wght@100&family=Recursive:wght@300&family=Redressed&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Pangolin&family=Raleway:wght@100&family=Recursive:wght@300&family=Redressed&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="gallery.css">
     <title>Галерея</title>
 </head>
 <body>
 
 <h1 id="name">Галерея Дубровського Михайла Дмитровича</h1>
 <a href="index.html" id="gallery_back">Назад до головної</a><br>
-<div class="row">
+<div class="container-fluid">
     <h3 id="my_img">Мої зображення</h3>
     <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
             <h3 class="first_img">Зображення у цій папці</h3>
-            <img src="images.jpg">
+
+            <img src="images.jpg"
+                 width="640" height="480" alt="first_img">
+
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
             <h3 class="second_img">Зображення у папці images</h3>
-            <img src="images/space.jpg">
+
+            <img src="images/space.jpg"
+                 width="640" height="480" alt="second_img">
+
         </div>
-        <div class="col-lg-4 col-md-12">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
             <h3 class="third_img">Зображення онлайн</h3>
-            <img src="http://placekitten.com/1280/1024">
+            <img src="http://placekitten.com/1280/1024"
+                 width="1280" height="1024" alt="third_img">
+
         </div>
     </div>
 </div>
