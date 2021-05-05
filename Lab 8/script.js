@@ -9,18 +9,18 @@ for (let i = 0; i < names.length; i++)
         speakHello(names[i]);
     }
 }
-console.log("Якщо довжина розбитого на символи масиву names_first_split менша за довжину нашого початковго масиву names_first тоді виводиться GoodBye")
+console.log("Якщо довжина розбитого на символи масиву names_split менша за довжину нашого початковго масиву names_first тоді виводиться GoodBye")
 let names_first = ["Jason", "Laura", "Evelina", "Bill", "Mike"];
 console.log("Початковий масив: " + names_first + " Довжина масиву: " + names_first.length);
 for (let j = 0; j < names_first.length; j++)
 {
-    let names_first_split = names_first[j].split('');
-    console.log("Довжина розбитого масиву: " + names_first_split.length);
-    if (names_first_split.length < names_first.length)
+    let names_split = names_first[j].split('');
+    console.log("Довжина розбитого масиву: " + names_split.length);
+    if (names_split.length < names_first.length)
     {
-        speakBye(names_first_split);
+        speakBye(names_split);
     } else
         {
-        speakHello(names_first_split);
+        speakHello(names_split);
     }
 }
