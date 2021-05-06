@@ -1,5 +1,5 @@
-let speakHello = function (name)
+var speakHello = function (name)
 {
-    let speakWord = "Hello";
+    var speakWord = "Hello";
     console.log(speakWord + " " + name);
 }
