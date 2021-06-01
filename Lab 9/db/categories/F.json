@@ -5,8 +5,8 @@
       "short_name": "F-1",
       "name": "Item F-1",
       "description": "One",
-      "price_retail": null,
-      "price_wholesale": 9.0,
+      "price_retail": 521,
+      "price_wholesale": 129.0,
       "amount_retail": null,
       "amount_wholesale": "5+ pos"
     },
@@ -15,8 +15,8 @@
       "short_name": "F-2",
       "name": "Item F-2",
       "description": "Two",
-      "price_retail": 7.5,
-      "price_wholesale": 9.0,
+      "price_retail": 125.5,
+      "price_wholesale": 1209.0,
       "amount_retail": "1+ pos",
       "amount_wholesale": "5+ pos"
     },
@@ -25,8 +25,8 @@
       "short_name": "F-3",
       "name": "Item F-3",
       "description": "Three",
-      "price_retail": 7.5,
-      "price_wholesale": 9.0,
+      "price_retail": 712.5,
+      "price_wholesale": 1219.0,
       "amount_retail": "1+ pos",
       "amount_wholesale": "5+ pos"
     },
@@ -35,8 +35,8 @@
       "short_name": "F-4",
       "name": "Item F-4",
       "description": "Four",
-      "price_retail": 7.5,
-      "price_wholesale": 9.0,
+      "price_retail": 712.5,
+      "price_wholesale": 5629.0,
       "amount_retail": "1+ pos",
       "amount_wholesale": "5+ pos"
     },
@@ -45,8 +45,8 @@
       "short_name": "F-5",
       "name": "Item F-5",
       "description": "Five",
-      "price_retail": 7.5,
-      "price_wholesale": 9.0,
+      "price_retail": 947.5,
+      "price_wholesale": 1119.0,
       "amount_retail": "1+ pos",
       "amount_wholesale": "5+ pos"
     },
@@ -55,8 +55,8 @@
       "short_name": "F-6",
       "name": "Item F-6",
       "description": "Six",
-      "price_retail": 7.5,
-      "price_wholesale": 9.0,
+      "price_retail": 7052.5,
+      "price_wholesale": 123219.0,
       "amount_retail": "1+ pos",
       "amount_wholesale": "5+ pos"
     }
